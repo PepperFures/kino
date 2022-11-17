@@ -1,0 +1,23 @@
+body {
+  background-color: rgba(48, 48, 48, 0.2);
+  margin: 0;
+  height: 50;
+  width: 50;
+}
+
+.pustoy {
+  color: rgb(41, 41, 41);
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.main2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.text3 {
+  background-color: rgb(44, 39, 39);
+}

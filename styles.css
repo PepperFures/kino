@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url(https://i.pinimg.com/originals/63/24/3a/63243aacfe563f25e472f9e187723df1.gif);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.background2 {
+  background-image: url(https://otkritkis.com/wp-content/uploads/2022/07/hr3fs.gif);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.blur {
+  animation: changeWidth 8s ease-in-out infinite;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-right: 1px solid whitesmoke;
+  height: 100vh;
+}
+
+.multiple-filters {
+  backdrop-filter: blur(12px) saturate(120%) contrast(200%);
+}
+
+@keyframes changeWidth {
+  100% {
+    width: 100%;
+  }
+}
